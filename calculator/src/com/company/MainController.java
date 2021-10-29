@@ -15,7 +15,7 @@ public class MainController {
     @FXML
     public void clickNumber(ActionEvent event)
     {
-        if(condition == true && condition != null){
+        if(condition){
             label1.setText("");
             condition=false;
         }
