@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="370.0" prefWidth="300.0" spacing="10.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.MainController">
+
+    <children>
+        <StackPane prefHeight="98.0" prefWidth="300.0">
+            <children>
+                <Label fx:id="label1" prefHeight="82.0" prefWidth="242.0">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+            </children></StackPane>
+        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="300.0" spacing="10.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#clickNumber" prefWidth="50.0" style="-fx-background-color: #232629;" text="7" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#clickNumber" prefWidth="50.0" style="-fx-background-color: #232629;" text="8" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#clickNumber" prefWidth="50.0" style="-fx-background-color: #232629;" text="9" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#clickOp" prefWidth="50.0" text="/">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="300.0" spacing="10.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#clickNumber" prefWidth="50.0" style="-fx-background-color: #232629;" text="4" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#clickNumber" prefWidth="50.0" style="-fx-background-color: #232629;" text="5" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#clickNumber" prefWidth="50.0" style="-fx-background-color: #232629;" text="6" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#clickOp" prefWidth="50.0" text="x">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="300.0" spacing="10.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#clickNumber" prefWidth="50.0" style="-fx-background-color: #232629;" text="1" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#clickNumber" prefWidth="50.0" style="-fx-background-color: #232629;" text="2" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#clickNumber" prefWidth="50.0" style="-fx-background-color: #232629;" text="3" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#clickOp" prefWidth="50.0" text="-">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="300.0" spacing="10.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#clickCE" prefWidth="50.0" text="CE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#clickNumber" prefWidth="50.0" style="-fx-background-color: #232629;" text="0" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#clickOp" prefWidth="50.0" style="-fx-background-color: #395697;" text="=" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#clickOp" prefWidth="50.0" text="+">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+    </children>
+</VBox>
